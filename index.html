@@ -1,5 +1,3 @@
----
----
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -23,7 +21,7 @@
                 <a href="https://pump.fun/9eyjmPSvHdZN21ok4tSZvEM9kpp2ks34iuryrP3Jpump" class="button">Click me, if you dare!</a>
             </section>
             <div class="image-container">
-                <img src="assets/images/banner.jpg" alt="Goofy Banner Image" class="site-image">
+                <img src="{{ site.imagelink }}"alt="Goofy Banner Image" class="site-image">
             </div>
         </section>
 
@@ -33,7 +31,7 @@
                 <p>{{ site.paragraph1 }}</p>
             </div>
             <div class="image-container">
-                <img src="assets/images/banner.jpg" alt="Silly Image 1" class="site-image">
+                <img src="{{ site.imagelink }}" alt="Silly Image 1" class="site-image">
             </div>
             
             <div class="paragraph-section">
@@ -41,7 +39,7 @@
                 <p>{{ site.paragraph2 }}</p>
             </div>
             <div class="image-container">
-                <img src="assets/images/banner.jpg" alt="Silly Image 2" class="site-image">
+                <img src="{{ site.imagelink }}" alt="Silly Image 2" class="site-image">
             </div>
             
             <div class="paragraph-section">
@@ -52,7 +50,7 @@
 
         <section class="cta">
             <h3>Buy us here</h3>
-            <a href="https://pump.fun/9eyjmPSvHdZN21ok4tSZvEM9kpp2ks34iuryrP3Jpump" class="button">Click me, if you dare!</a>
+            <a href="https://pump.fun/{{ site.CA }}" class="button">Click me, if you dare!</a>
         </section>
     </main>
 
